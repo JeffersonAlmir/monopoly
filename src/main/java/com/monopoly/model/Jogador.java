@@ -136,5 +136,8 @@ public class Jogador {
         System.out.println(this.getNome() +", você possui $"+this.getSaldo()+"\n");
     }
 
+    public void pagarValor(int valor){
+        this.setSaldo(this.getSaldo() - valor);
+    }
 }
     

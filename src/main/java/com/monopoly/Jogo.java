@@ -65,6 +65,7 @@ public class Jogo {
                 System.out.println("Comandos disponíveis: [jogar] [status] [sair]");
                 String comando = sc.nextLine();
 
+                //usa map padrao comand
                 switch ( comando) {
 
                     case "status":

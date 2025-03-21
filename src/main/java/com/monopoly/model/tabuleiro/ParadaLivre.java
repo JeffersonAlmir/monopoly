@@ -20,7 +20,7 @@ public class ParadaLivre implements Lugar {
 
     @Override
     public void realizarAcao(Jogador jogador, Scanner sc) {
-        System.out.println("ainda não faz nada");
+        System.out.println("Você caiu em parada livre, nada acontece");
     }
-    
+     // CRIAR CLASSE CHANCE E COMUNITY CHESS
 }
